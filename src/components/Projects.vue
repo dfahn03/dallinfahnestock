@@ -16,7 +16,7 @@
         </a>
 
         <a href="http://kitchen-ninja1.herokuapp.com/#/login" class="custom-card">
-          <div class="card ninjaCard pt-2 ml-2" style="width: 33rem; height: 18rem;">
+          <div class="card ninjaCard pt-2 ml-2" style="width: 33rem; height: 18.2rem;">
             <img src="../assets/kninja.gif" class="card-img ninjaImg" style="width: 33%;">
             <div class="card-img-overlay">
               <h5 class="card-title">Kitchen Ninja</h5>
