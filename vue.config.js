@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '</dallinfahnestock/>',
+  publicPath: '/dallinfahnestock/',
   outputDir: 'dist',
   assetsDir: 'dist'
 }
