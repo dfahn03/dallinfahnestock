@@ -2,9 +2,37 @@
   <div class="navigation col-12 d-flex justify-content-center align-items-center">
     <div class="row">
 
+      <!-- Small Navbar -->
+      <nav class="navbar fixed-top navbar-expand-sm" id="smNavbar">
+        <a class="navbar-brand smBrand" href="#"><img src="../assets/D-2.gif" style="height: 50px;"
+            class="d-logo"></a></a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <img src="../assets/Menu-Icon-40.png" title="Menu" class="menuImg">
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div class="navbar-nav justify-content-center">
+            <div class="row">
+              <div class="col-12">
+                <a href="" class="nav-item mr-3 mt-3">Home</a>
+                <a href="" class="nav-item mr-3 mt-3">About</a>
+                <a href="" class="nav-item mt-3">Projects</a>
+              </div>
+              <div class="col-12">
+                <a href="" class="nav-item mr-3 mt-3">Skills</a>
+                <a href="" class="nav-item mr-3 mt-3">Experience</a>
+                <a href="" class="nav-item mr-3 mt-3">Contact</a>
+              </div>
+            </div>
+            <!-- TODO When a nav link is clicked, it will go to the section that you click on -->
+          </div>
+        </div>
+      </nav>
 
-      <nav class="navbar fixed-top navbar-expand-sm">
-        <a class="navbar-brand" href="#"><img src="../assets/D-2.gif" style="height: 50px;" class="d-logo"></a></a>
+      <!-- Large Navbar -->
+      <nav class="navbar fixed-top navbar-expand-sm" id="lgNavbar">
+        <a class="navbar-brand smBrand" href="#"><img src="../assets/D-2.gif" style="height: 50px;"
+            class="d-logo"></a></a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -16,7 +44,7 @@
             <a href="" class="nav-item mr-3 mt-3">Home</a>
             <a href="" class="nav-item mr-3 mt-3">About</a>
             <a href="" class="nav-item mt-3">Projects</a>
-            <a class="navbar-brand mb-0 mx-3" v-if=""><img src="../assets/D-2.gif" style="height: 50px;"
+            <a class="navbar-brand lgBrand mb-0 mx-3" v-if=""><img src="../assets/D-2.gif" style="height: 50px;"
                 class="d-logo"></a>
             <a href="" class="nav-item mr-3 mt-3">Skills</a>
             <a href="" class="nav-item mr-3 mt-3">Experience</a>
@@ -53,6 +81,50 @@
 
   .navbar-toggler {
     border: 1px solid black;
+  }
+
+  @media screen and (max-width: 575px) {
+
+    .lgBrand,
+    #lgNavbar {
+      visibility: hidden;
+    }
+
+    .smBrand,
+    #smNavbar {
+      visibility: visible;
+    }
+
+    #smNavbar {
+      background-color: rgb(255, 255, 255, 0.9);
+      height: 10.6vh;
+    }
+
+
+    .nav-item {
+      color: black;
+      font-weight: 900;
+    }
+
+    .navbar-nav {
+      background-color: rgba(255, 255, 255, 0.9);
+      min-width: 90vw;
+      display: flex;
+      justify-content: start;
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+
+    .lgBrand,
+    #lgNavbar {
+      visibility: visible;
+    }
+
+    .smBrand,
+    #smNavbar {
+      visibility: hidden;
+    }
   }
 
   a {
