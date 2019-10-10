@@ -1,5 +1,5 @@
 <template>
-  <div class="experience col d-flex justify-content-center align-items-center">
+  <div class="experience col-12 d-flex justify-content-center align-items-center">
 
   </div>
 </template>

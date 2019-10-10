@@ -1,5 +1,5 @@
 <template>
-  <div class="title col-sm-12 d-flex justify-content-center align-items-center">
+  <div class="title col-12 d-flex justify-content-center align-items-center">
 
     <div class="row">
       <div class="col-12">

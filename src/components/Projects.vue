@@ -1,5 +1,5 @@
 <template>
-  <div class="projects col d-flex justify-content-center align-items-center">
+  <div class="projects col-12 d-flex justify-content-center align-items-center">
     <div class="row">
       <div class="col-12 mb-5">
         <h1 class="pTitle">Projects</h1>
@@ -62,9 +62,6 @@
 
   .ninjaCard {
     /* background-color: #393e46; */
-    /* background-image: url("https://media.istockphoto.com/photos/blurred-abstract-background-modern-kitchen-with-tabletop-and-space-picture-id935971392?k=6&m=935971392&s=612x612&w=0&h=BBpvZGyA1OU4kna2PhEKYAH86CpL127cHYkSpA-nE54="); */
-    /* background-image: url("https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1129543819%2F960x0.jpg%3Ffit%3Dscale"); */
-    /* background-image: url("https://i.pinimg.com/originals/9d/d7/6e/9dd76e2a489f893d51effabf2b8ec6f9.png"); */
     background-image: url("https://us.123rf.com/450wm/urfingus/urfingus1606/urfingus160600006/58214688-professional-kitchen-facade-view-surface-in-stainless-steel-.jpg?ver=6");
     background-position: bottom;
     background-size: cover;

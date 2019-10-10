@@ -1,5 +1,5 @@
 <template>
-  <div class="skils col-sm-12 d-flex justify-content-center align-items-center">
+  <div class="skils col-12 d-flex justify-content-center align-items-center">
     <div class="row justifty-content-center">
       <div class="col-12 mb-5">
         <h1 class="mySkills">Skills</h1>

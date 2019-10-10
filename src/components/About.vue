@@ -1,11 +1,12 @@
 <template>
-  <div class="about col-sm-12 d-flex justify-content-center align-items-center">
+  <div class="about col-12 d-flex justify-content-center align-items-center">
 
     <div class="row">
       <div class="col-12">
         <h1 class="aboutMe mb-5">About Dallin</h1>
       </div>
-      <div class="col-12 d-flex justify-content-center">
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
         <div class="card text-white align-items-center" style="width: 25rem;">
           <img src="../assets/Boy-1.png" class="card-img-top" style="width: 9.5%;">
           <div class="card-body text-left">
@@ -14,6 +15,9 @@
               grade, playing video games, or helping family/friends with their technical issues.</p>
           </div>
         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
         <div class="card text-white align-items-center" style="width: 25rem;">
           <img src="../assets/Fit-2.gif" class="card-img-top" style="width: 21%">
           <div class="card-body text-left">
@@ -27,6 +31,9 @@
               where I began.</p>
           </div>
         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
         <div class="card text-white align-items-center" style="width: 25rem;">
           <img src="../assets/Pentester-2.png" class="card-img-top penTImg">
           <div class="card-body text-left">
@@ -41,6 +48,9 @@
               finishing that training, I have been seeking out additional avenues to grow in my skill set.</p>
           </div>
         </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
         <div class="card text-white align-items-center text-center" style="width: 25rem;">
           <img src="../assets/BoiseCodeWorks.png" class="card-img-top bcwImg">
           <div class="card-body text-left">
@@ -64,6 +74,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 

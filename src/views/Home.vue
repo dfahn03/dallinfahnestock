@@ -52,6 +52,8 @@
   }
 
   .titleSection {
+    /* background-image: url("../assets/bg-2.jpg"); */
+    background-image: url("../assets/bg-4.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -66,11 +68,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  }
-
-  .titleSection {
-    /* background-image: url("../assets/bg-2.jpg"); */
-    background-image: url("../assets/bg-4.jpg");
   }
 
   .aboutSection {
