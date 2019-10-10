@@ -97,7 +97,7 @@
 
     #smNavbar {
       background-color: rgb(255, 255, 255, 0.9);
-      height: 10.6vh;
+      height: 7vh;
     }
 
     .nav-item {
