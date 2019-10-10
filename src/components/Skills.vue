@@ -1,7 +1,7 @@
 <template>
-  <div class="skils col-12 d-flex justify-content-center align-items-center">
+  <div class="skils col-12 d-flex justify-content-center">
     <div class="row justifty-content-center">
-      <div class="col-12 mb-5">
+      <div class="col-12">
         <h1 class="mySkills">Skills</h1>
       </div>
       <div class="col-12 mb-5">
@@ -50,5 +50,7 @@
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Monda', sans-serif;
+    margin-top: 10vh;
+
   }
 </style>

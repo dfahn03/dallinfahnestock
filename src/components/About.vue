@@ -1,9 +1,9 @@
 <template>
-  <div class="about col-12 d-flex justify-content-center align-items-center">
+  <div class="about col-12 d-flex justify-content-center">
 
     <div class="row">
       <div class="col-12">
-        <h1 class="aboutMe mb-5">About Dallin</h1>
+        <h1 class="aboutMe">About Dallin</h1>
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
@@ -107,6 +107,7 @@
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Monda', sans-serif;
+    margin-top: 10vh;
   }
 
   .job-title {

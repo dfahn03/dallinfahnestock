@@ -1,10 +1,10 @@
 <template>
-  <div class="projects col-12 d-flex justify-content-center align-items-center">
+  <div class="projects col-12 d-flex justify-content-center">
     <div class="row">
-      <div class="col-12 mb-5">
+      <div class="col-12">
         <h1 class="pTitle">Projects</h1>
       </div>
-      <div class="col mt-5 d-flex justify-content-center">
+      <div class="col-lg-12 d-flex justify-content-center">
 
         <a href="http://denotevator.herokuapp.com/#/login" class="custom-card">
           <div class="card text-white" style="width: 33rem;">
@@ -58,6 +58,7 @@
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Monda', sans-serif;
+    margin-top: 10vh;
   }
 
   .ninjaCard {

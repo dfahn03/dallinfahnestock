@@ -100,7 +100,6 @@
       height: 10.6vh;
     }
 
-
     .nav-item {
       color: black;
       font-weight: 900;
