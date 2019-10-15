@@ -12,7 +12,7 @@
         <h6 class="name">Dallin Fahnestock</h6>
       </div>
       <div class="col-12 mt-4">
-        <button class="btn btn-lg contactBtn px-5" type="button" data-toggle="modal" data-target="#emailModal">Contact
+        <button class="btn contactBtn px-5" type="button" data-toggle="modal" data-target="#emailModal">Contact
           Me</button>
         <Email />
       </div>
@@ -35,8 +35,6 @@
     data() {
       return {}
     },
-    computed: {},
-    methods: {},
     components: {
       Email
     }
@@ -46,7 +44,7 @@
 <style scoped>
   .title {
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -2px 0 #000, 1px -2px 0 #000, -1px 2px 0 #000, 1px 2px 0 #000;
   }
 
   .job-title {
@@ -73,5 +71,25 @@
     font-family: 'Monda', sans-serif;
     color: white;
     /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  }
+
+  @media screen and (max-width: 575px) {
+    .job-title {
+      font-size: 30px;
+    }
+
+    .sJob-title {
+      font-size: 20px;
+    }
+
+    .name {
+      font-size: 15px;
+    }
+
+    .contactBtn {
+      /* width: 50%;
+      height: 60%;
+      font-size: 15px; */
+    }
   }
 </style>

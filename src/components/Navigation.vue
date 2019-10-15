@@ -97,7 +97,7 @@
 
     #smNavbar {
       background-color: rgb(255, 255, 255, 0.9);
-      height: 7vh;
+      height: 8.4vh;
     }
 
     .nav-item {
@@ -110,6 +110,10 @@
       min-width: 90vw;
       display: flex;
       justify-content: start;
+    }
+
+    .menuImg {
+      cursor: pointer;
     }
   }
 
