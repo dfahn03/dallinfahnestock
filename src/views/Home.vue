@@ -83,4 +83,55 @@
   .skillSection {
     background-color: #393e46;
   }
+
+
+  @media screen and (max-width: 767px) {
+    .aboutSection {
+      height: 180vh;
+    }
+  }
+
+  @media screen and (min-width: 585px) and (max-width: 991px) {
+    .projectsSection {
+      height: 125vh;
+    }
+  }
+
+  @media screen and (max-width: 584px) {
+    .projectsSection {
+      height: 90vh;
+    }
+  }
+
+  @media screen and (height: 375px) {
+    .titleSection {
+      height: 130vh;
+    }
+
+    .aboutSection {
+      height: 250vh;
+    }
+
+    .projectsSection {
+      height: 275vh;
+    }
+
+    .skillSection {
+      height: 180vh;
+    }
+  }
+
+  @media screen and (height: 768px) {
+    .aboutSection {
+      height: 130vh;
+    }
+
+    .projectsSection {
+      height: 150vh;
+    }
+
+    .skillSection {
+      height: 130vh;
+    }
+  }
 </style>

@@ -83,6 +83,12 @@
     border: 1px solid black;
   }
 
+  @media screen and (height: 375px) {
+    .navbar {
+      height: 15vh;
+    }
+  }
+
   @media screen and (max-width: 575px) {
 
     .lgBrand,

@@ -73,6 +73,12 @@
     /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   }
 
+  @media screen and (height: 375px) {
+    .job-title {
+      margin-top: 10vh;
+    }
+  }
+
   @media screen and (max-width: 575px) {
     .job-title {
       font-size: 30px;

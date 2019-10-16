@@ -6,21 +6,21 @@
         <h1 class="aboutMe">About Dallin</h1>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
-        <div class="card text-white align-items-center" style="width: 25rem;">
+      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+        <div class="card text-white align-items-center">
           <img src="../assets/Boy-1.png" class="card-img-top" style="width: 9.5%;">
-          <div class="card-body text-left">
-            <p class="card-text">I started my love for technology when I was very young. Whether it was building a
+          <div class="card-body text-center">
+            <p class="card-text">My love for technology started at a very young. Whether it was building a
               computer in 5th
               grade, playing video games, or helping family/friends with their technical issues.</p>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
-        <div class="card text-white align-items-center" style="width: 25rem;">
+      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+        <div class="card text-white align-items-center">
           <img src="../assets/Fit-2.gif" class="card-img-top" style="width: 21%">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <p class="card-text">I began working in the fitness industry,
               which I
               loved for numerous reasons, one of which being the built-in need for continuing education. I found
@@ -33,10 +33,10 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
-        <div class="card text-white align-items-center" style="width: 25rem;">
+      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+        <div class="card text-white align-items-center">
           <img src="../assets/Pentester-2.png" class="card-img-top penTImg">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <p class="card-text">In 2017, I was approached by a former NSA programmer and penetration tester for an
               opportunity to start
               my professional career in the industry, and I immediately began to train with him as I wanted to
@@ -50,10 +50,10 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center mt-5">
-        <div class="card text-white align-items-center text-center" style="width: 25rem;">
+      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+        <div class="card text-white align-items-center text-center">
           <img src="../assets/BoiseCodeWorks.png" class="card-img-top bcwImg">
-          <div class="card-body text-left">
+          <div class="card-body text-center">
             <p class="card-text">I
               discovered BoiseCodeWorks in my search for growth, an immersive Full Stack Developer training program
               that is based in Idaho.
@@ -110,20 +110,48 @@
     margin-top: 10vh;
   }
 
-  .job-title {
-    font-size: 63px;
-    text-transform: uppercase;
-    font-family: 'Monda', sans-serif;
-  }
-
   .card {
     background: transparent;
     border: none;
+    width: 20rem;
   }
 
   .fitImg,
   .penTImg,
   .bcwImg {
     width: 20%;
+  }
+
+  .card-img-top {
+    margin-bottom: 2%;
+  }
+
+
+  @media screen and (max-width: 767px) {
+    .aboutMe {
+      font-size: 35px;
+      text-transform: uppercase;
+      font-family: 'Monda', sans-serif;
+      margin-top: 8vh;
+    }
+
+    .card-body {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (min-width: 1530px) {
+    .card {
+      width: 24rem;
+    }
+
+    .card-text {
+      font-size: 18px;
+    }
   }
 </style>
