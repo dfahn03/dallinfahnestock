@@ -121,9 +121,23 @@
     }
   }
 
-  @media screen and (height: 768px) {
+  @media screen and (min-height: 600px) and (max-height: 768px) {
     .aboutSection {
       height: 130vh;
+    }
+
+    .projectsSection {
+      height: 150vh;
+    }
+
+    .skillSection {
+      height: 130vh;
+    }
+  }
+
+  @media screen and (min-height: 376px) and (max-height: 599px) {
+    .aboutSection {
+      height: 160vh;
     }
 
     .projectsSection {
