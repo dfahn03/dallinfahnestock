@@ -6,7 +6,7 @@
         <h1 class="aboutMe">About Dallin</h1>
       </div>
 
-      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
         <div class="card text-white align-items-center">
           <img src="../assets/Boy-1.png" class="card-img-top" style="width: 9.5%;">
           <div class="card-body text-center">
@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
         <div class="card text-white align-items-center">
           <img src="../assets/Fit-2.gif" class="card-img-top" style="width: 21%">
           <div class="card-body text-center">
@@ -33,7 +33,7 @@
         </div>
       </div>
 
-      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
         <div class="card text-white align-items-center">
           <img src="../assets/Pentester-2.png" class="card-img-top penTImg">
           <div class="card-body text-center">
@@ -50,7 +50,7 @@
         </div>
       </div>
 
-      <div class="col-xl col-lg-6 col-md col-sm-12 d-flex justify-content-center">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex justify-content-center">
         <div class="card text-white align-items-center text-center">
           <img src="../assets/BoiseCodeWorks.png" class="card-img-top bcwImg">
           <div class="card-body text-center">
@@ -113,7 +113,7 @@
   .card {
     background: transparent;
     border: none;
-    width: 20rem;
+    width: 25rem;
   }
 
   .fitImg,
@@ -145,13 +145,32 @@
     }
   }
 
+  @media screen and (min-width: 768px)and (max-width: 991px) {
+    /* .aboutMe {
+      font-size: 35px;
+      text-transform: uppercase;
+      font-family: 'Monda', sans-serif;
+      margin-top: 8vh;
+    } */
+
+    .card-body {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 15px;
+    }
+  }
+
   @media screen and (min-width: 1530px) {
     .card {
       width: 24rem;
     }
 
+    /* 
     .card-text {
       font-size: 18px;
-    }
+    } */
   }
 </style>
