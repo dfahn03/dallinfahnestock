@@ -15,9 +15,9 @@
     <div class="row skillSection" id="skills">
       <skills />
     </div>
-    <div class="row expSection" id="exp">
+    <!-- <div class="row expSection" id="exp">
       <experience />
-    </div>
+    </div> -->
 
 
   </div>
@@ -29,7 +29,7 @@
   import About from "@/components/About.vue";
   import Projects from "@/components/Projects.vue";
   import Skills from "@/components/Skills.vue";
-  import Experience from "@/components/Experience.vue";
+  // import Experience from "@/components/Experience.vue";
 
   export default {
     name: 'home',
@@ -39,7 +39,7 @@
       About,
       Projects,
       Skills,
-      Experience
+      // Experience
     }
   }
 </script>
