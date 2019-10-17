@@ -64,7 +64,7 @@
   .projectsSection,
   .skillSection,
   .expSection {
-    height: 92vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

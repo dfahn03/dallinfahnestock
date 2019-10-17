@@ -40,13 +40,13 @@
         </button>
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <div class="navbar-nav">
+          <div class="navbar-nav justify-content-center">
             <a href="#title" class="nav-item mr-3 mt-3">Home</a>
             <a href="#about" class="nav-item mr-3 mt-3">About</a>
             <a class="navbar-brand lgBrand mb-0 mx-3" v-if=""><img src="../assets/D-2.gif" style="height: 50px;"
                 class="d-logo"></a>
             <a href="#projects" class="nav-item mr-3 mt-3">Projects</a>
-            <a href="#skills" class="nav-item mr-3 mt-3">Skills</a>
+            <a href="#skills" class="nav-item mt-3 skillsNavItem">Skills</a>
             <!-- <a href="" class="nav-item mr-3 mt-3">Experience</a> -->
             <!-- <a href="#" class="nav-item mr-3 mt-3">Contact</a> -->
             <!-- TODO When a nav link is clicked, it will go to the section that you click on -->
@@ -76,8 +76,9 @@
     /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
   }
 
-  .navbar-nav {
-    justify-content: center;
+  .skillsNavItem {
+    /* justify-content: center; */
+    margin-right: 6%;
   }
 
   .navbar-toggler {
