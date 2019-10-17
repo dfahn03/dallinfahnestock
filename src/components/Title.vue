@@ -14,7 +14,6 @@
       <div class="col-12 mt-4">
         <button class="btn contactBtn px-5" type="button" data-toggle="modal" data-target="#emailModal">Contact
           Me</button>
-        <Email />
       </div>
       <div class="col-12 mt-4">
         <a href="https://www.linkedin.com/in/dfahnestock/"><img src="../assets/LinkedIn-70.png" title="LinkedIn"></a>
@@ -22,6 +21,7 @@
             title="Github"></a>
         <a href="#emailModal" class="ml-2" data-toggle="modal"><img src="../assets/Email-70.png" title="Email"></a>
       </div>
+      <email />
     </div>
 
   </div>

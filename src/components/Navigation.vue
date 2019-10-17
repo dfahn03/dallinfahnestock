@@ -14,14 +14,14 @@
           <div class="navbar-nav justify-content-center">
             <div class="row">
               <div class="col-12">
-                <a href="" class="nav-item mr-3 mt-3">Home</a>
-                <a href="" class="nav-item mr-3 mt-3">About</a>
-                <a href="" class="nav-item mt-3">Projects</a>
+                <a href="#title" class="nav-item mr-3 mt-3">Home</a>
+                <a href="#about" class="nav-item mr-3 mt-3">About</a>
+                <a href="#projects" class="nav-item mr-3 mt-3">Projects</a>
+                <a href="#skills" class="nav-item mr-3 mt-3">Skills</a>
               </div>
               <div class="col-12">
-                <a href="" class="nav-item mr-3 mt-3">Skills</a>
-                <a href="" class="nav-item mr-3 mt-3">Experience</a>
-                <a href="" class="nav-item mr-3 mt-3">Contact</a>
+                <!-- <a href="" class="nav-item mr-3 mt-3">Experience</a> -->
+                <!-- <a href="#" class="nav-item mr-3 mt-3">Contact</a> -->
               </div>
             </div>
             <!-- TODO When a nav link is clicked, it will go to the section that you click on -->
@@ -40,15 +40,15 @@
         </button>
 
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <div class="navbar-nav justify-content-center">
-            <a href="" class="nav-item mr-3 mt-3">Home</a>
-            <a href="" class="nav-item mr-3 mt-3">About</a>
-            <a href="" class="nav-item mt-3">Projects</a>
+          <div class="navbar-nav">
+            <a href="#title" class="nav-item mr-3 mt-3">Home</a>
+            <a href="#about" class="nav-item mr-3 mt-3">About</a>
             <a class="navbar-brand lgBrand mb-0 mx-3" v-if=""><img src="../assets/D-2.gif" style="height: 50px;"
                 class="d-logo"></a>
-            <a href="" class="nav-item mr-3 mt-3">Skills</a>
-            <a href="" class="nav-item mr-3 mt-3">Experience</a>
-            <a href="" class="nav-item mr-3 mt-3">Contact</a>
+            <a href="#projects" class="nav-item mr-3 mt-3">Projects</a>
+            <a href="#skills" class="nav-item mr-3 mt-3">Skills</a>
+            <!-- <a href="" class="nav-item mr-3 mt-3">Experience</a> -->
+            <!-- <a href="#" class="nav-item mr-3 mt-3">Contact</a> -->
             <!-- TODO When a nav link is clicked, it will go to the section that you click on -->
           </div>
         </div>
@@ -65,9 +65,6 @@
     data() {
       return {}
     },
-    computed: {},
-    methods: {},
-    components: {}
   }
 </script>
 
@@ -77,6 +74,10 @@
     color: white;
     height: 8vh;
     /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  }
+
+  .navbar-nav {
+    justify-content: center;
   }
 
   .navbar-toggler {

@@ -1,33 +1,20 @@
 <template>
-  <div class="email">
+  <div class="email col">
 
     <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel"
       aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="emailModalLabel">Email</h5>
+            <h5 class="modal-title ml-2" id="emailModalLabel">Email</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
+              <span aria-hidden="true" class="mr-2">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body mt-3">
             <p>Coming Soon!</p>
             <p>Contact me with this email address:</p>
-            <p class="emailAdd">dallin.jbs@gmail.com</p>
-            <!-- <form @submit.prevent="">
-              <div class="form-group">
-                <label for="vaultInputName" class="col-form-label">Name:</label>
-                <input type="text" v-model="newVault.name" class="form-control text-center" id="vaultInputName"
-                  placeholder="Enter Vault Name" required>
-              </div>
-              <div class="form-group mb-4">
-                <label for="vaultInputDescription" class="col-form-label">Description:</label>
-                <input type="text" v-model="newVault.description" class="form-control text-center"
-                  id="vaultInputDescription" placeholder="Enter Vault Description">
-              </div>
-              <button type="submit" class="btn btn-success">Create Vault</button>
-            </form> -->
+            <p class="emailAdd mb-4">dallin.jbs@gmail.com</p>
           </div>
         </div>
       </div>
@@ -51,9 +38,40 @@
 <style scoped>
   .email {
     color: black;
+    text-shadow: none;
+    font-weight: 600;
+  }
+
+  .modal-dialog {
+    left: 35%;
   }
 
   .emailAdd {
     color: blue;
+  }
+
+  @media screen and (max-width: 584px) {
+    .modal-dialog {
+      left: 0%;
+    }
+  }
+
+  @media screen and (height: 375px) {
+    .modal-dialog {
+      left: 20%;
+      top: 10%;
+    }
+  }
+
+  @media screen and (width: 768px) {
+    .modal-dialog {
+      left: 20%;
+    }
+  }
+
+  @media screen and (width: 1024px) {
+    .modal-dialog {
+      left: 25%;
+    }
   }
 </style>
