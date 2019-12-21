@@ -24,7 +24,6 @@
                 <!-- <a href="#" class="nav-item mr-3 mt-3">Contact</a> -->
               </div>
             </div>
-            <!-- TODO When a nav link is clicked, it will go to the section that you click on -->
           </div>
         </div>
       </nav>
