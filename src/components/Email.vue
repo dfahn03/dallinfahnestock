@@ -12,9 +12,9 @@
             </button>
           </div>
           <div class="modal-body mt-3">
-            <p>Coming Soon!</p>
-            <p>Contact me with this email address:</p>
-            <p class="emailAdd mb-4">dallin.jbs@gmail.com</p>
+            <!-- <p>Coming Soon!</p> -->
+            <p>Contact me @: dallin.jbs@gmail.com</p>
+            <!-- <p class="emailAdd mb-4">dallin.jbs@gmail.com</p> -->
           </div>
         </div>
       </div>
