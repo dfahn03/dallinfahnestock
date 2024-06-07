@@ -6,19 +6,21 @@
     <div class="row titleSection" id="title">
       <Title />
     </div>
-    <div class="row aboutSection" id="about">
-      <about />
-    </div>
-    <div class="row projectsSection" id="projects">
-      <projects />
-    </div>
     <div class="row skillSection" id="skills">
       <skills />
     </div>
-    <!-- <div class="row expSection" id="exp">
+    <div class="row expSection" id="exp">
       <experience />
+    </div>
+    <div class="row projectsSection" id="projects">
+      <projects />
+      </div>
+    <div class="row aboutSection" id="about">
+      <about />
+    </div>
+    <!-- <div class="row contactSection" id="contact">
+      <contact />
     </div> -->
-
 
   </div>
 </template>
@@ -29,7 +31,8 @@
   import About from "@/components/About.vue";
   import Projects from "@/components/Projects.vue";
   import Skills from "@/components/Skills.vue";
-  // import Experience from "@/components/Experience.vue";
+  import Experience from "@/components/Experience.vue";
+  // import Contact from "@/components/Contact.vue";
 
   export default {
     name: 'home',
@@ -39,7 +42,8 @@
       About,
       Projects,
       Skills,
-      // Experience
+      Experience
+      //Contact
     }
   }
 </script>

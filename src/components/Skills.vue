@@ -1,5 +1,5 @@
 <template>
-  <div class="skils col-12 d-flex justify-content-center">
+  <div class="skills col-12 d-flex justify-content-center">
     <div class="row justifty-content-center">
       <div class="col-12">
         <h1 class="mySkills">Skills</h1>
